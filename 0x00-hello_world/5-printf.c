@@ -1,4 +1,4 @@
-#include <studio.h>
+#include <iostream.h>
 /*
  *Print a string
  */
