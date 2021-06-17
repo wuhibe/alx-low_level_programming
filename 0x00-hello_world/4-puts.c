@@ -1,8 +1,9 @@
 #include<stdio.h>
-/*
-*main - Start here
-*Return(0) - well done
-*/
+
+/**
+ * *main - Program starts here
+ *  *Return: Success
+ */
 int main(void)
 {
 puts("\"Programming is like building a multilingual puzzle");
