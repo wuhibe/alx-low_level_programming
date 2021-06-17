@@ -1,9 +1,10 @@
-#include <iostream.h>
-/* 
- *print a string
- */
+#include<iostream.h>
+/*
+*print a string
+*main - Start here
+*/
 int main(void)
 {
-  puts("Programming is like building a multilingual puzzle"'\n');
-    return (0);
-       }
+puts("Programming is like building a multilingual puzzle"'\n');
+return (0);
+}
