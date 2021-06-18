@@ -7,6 +7,7 @@ int main(void)
 {
 	char x = '0';
 	char y = 'a';
+
 	for (; x <= '9' || y <= 'f'; x++)
 	{
 		if (x <= '9')
