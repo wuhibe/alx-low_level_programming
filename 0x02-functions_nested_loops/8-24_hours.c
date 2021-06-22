@@ -6,7 +6,7 @@
  *
  *Return: Always 0.
  */
-int jack_bauer(void)
+void jack_bauer(void)
 {
 int h, m, x, y, a, b;
 for (h = 0; h < 24; h++)
@@ -24,5 +24,4 @@ for (m = 0; m < 60; m++)
 	_putchar('0' + b);
 	}
 }
-return (0);
 }
