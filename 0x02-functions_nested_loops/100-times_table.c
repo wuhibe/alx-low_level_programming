@@ -17,8 +17,7 @@ for (b = 1; b <= n; b++)
 c = a * b;
 _putchar(44);
 _putchar(32);
-
-printf("%i ", c);
+printf("%d ", c);
 }
 _putchar('\n');
 }
