@@ -12,7 +12,7 @@ if (n > 98)
 {
 for (; n >= 98; n--)
 {
-_putchar('n');
+_putchar("%d", n);
 _putchar(',');
 _putchar(' ');
 }
@@ -21,7 +21,7 @@ else
 {
 for (; n <= 98; n++)
 {
-_putchar('n');
+_putchar("%d", n);
 _putchar(',');
 _putchar(' ');
 }
