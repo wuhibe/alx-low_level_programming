@@ -1,4 +1,4 @@
-#include "holberton.c"
+#include "holberton.h"
 /**
  *_abs - Calculate absolute value of int
  *
