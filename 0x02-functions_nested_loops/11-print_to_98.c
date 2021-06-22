@@ -24,6 +24,7 @@ for (; n < 98; n++)
 printf("%i, ", n);
 printf("98\n");
 }
+}
 else
 printf("98\n");
 }
