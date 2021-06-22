@@ -1,8 +1,10 @@
 #include "holberton.h"
 /**
  *_islower - Program starts here
+ * 
+ *@c: character in ASCII code.
  *
- *Return: Always 0.
+ *Return: 1 for lowercase, 0 for uppercase.
  */
 
 int _islower(int c)
