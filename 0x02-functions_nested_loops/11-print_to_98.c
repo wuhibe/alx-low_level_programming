@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 /**
  *print_to_98 - print all ints to 98
  *
@@ -12,7 +13,7 @@ if (n > 98)
 {
 for (; n >= 98; n--)
 {
-_putchar("%d", n);
+printf(n);
 _putchar(',');
 _putchar(' ');
 }
@@ -21,7 +22,7 @@ else
 {
 for (; n <= 98; n++)
 {
-_putchar("%d", n);
+printf(n);
 _putchar(',');
 _putchar(' ');
 }
