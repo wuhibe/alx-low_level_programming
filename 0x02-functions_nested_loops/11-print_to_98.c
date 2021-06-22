@@ -13,18 +13,14 @@ if (n > 98)
 {
 for (; n >= 98; n--)
 {
-printf(n);
-_putchar(',');
-_putchar(' ');
+printf("%i, ", n);
 }
 }
 else
 {
 for (; n <= 98; n++)
 {
-printf(n);
-_putchar(',');
-_putchar(' ');
+printf("%i, ", n);
 }
 }
 }
