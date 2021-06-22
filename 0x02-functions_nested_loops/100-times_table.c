@@ -10,7 +10,7 @@ void print_times_table(int n)
 int a, b, c;
 for (a = 0; a <= n; a++)
 {
-for (b = 1; b <= n; b++)
+for (b = 0; b <= n; b++)
 {
 c = a * b;
 printf("%d, ", c);
