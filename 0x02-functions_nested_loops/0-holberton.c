@@ -15,7 +15,7 @@ while (x < 10)
 {
 a = b[x];
 _putchar(a);
-i++;
+x++;
 }
 return (0);
 }
