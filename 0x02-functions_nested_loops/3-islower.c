@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  *_islower - Program starts here
- * 
+ *
  *@c: character in ASCII code.
  *
  *Return: 1 for lowercase, 0 for uppercase.
