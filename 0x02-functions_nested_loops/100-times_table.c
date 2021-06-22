@@ -10,15 +10,11 @@ void print_times_table(int n)
 int a, b, c;
 for (a = 0; a <= n; a++)
 {
-_putchar(48);
-
 for (b = 1; b <= n; b++)
 {
 c = a * b;
-_putchar(44);
-_putchar(32);
-printf("%d ", c);
+printf("%d, ", c);
 }
-_putchar('\n');
+printf("\n")
 }
 }
