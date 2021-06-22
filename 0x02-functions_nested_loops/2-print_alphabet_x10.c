@@ -10,11 +10,13 @@ int x;
 for (x = 0; x < 10; x++)
 {
 char c;
+
 for (c = 'a'; c <= 'z'; c++)
 {
 _putchar(c);
 }
-_putchar("\n");
+
+_putchar('\n');
 }
 return (0);
 }
