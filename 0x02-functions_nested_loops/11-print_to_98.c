@@ -14,8 +14,8 @@ if (n > 98)
 for (; n > 98; n--)
 {
 printf("%i, ", n);
-printf("98\n");
 }
+printf("98\n");
 }
 
 else if (n < 98)
@@ -23,8 +23,8 @@ else if (n < 98)
 for (; n < 98; n++)
 {
 printf("%i, ", n);
-printf("98\n");
 }
+printf("98\n");
 }
 
 else
