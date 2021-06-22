@@ -22,7 +22,7 @@ printf("%i ", c);
 }
 else
 {
-printf("%i ", c)
+printf("%i ", c);
 }
 }
 _putchar('\n');
