@@ -13,7 +13,11 @@ for (a = 0; a <= n; a++)
 for (b = 0; b <= n; b++)
 {
 c = a * b;
-printf("%d, ", c);
+printf("%d", c);
+while (c < n)
+{
+printf(",  ");
+}
 }
 printf("\n");
 }
