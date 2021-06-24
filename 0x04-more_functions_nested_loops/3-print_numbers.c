@@ -2,7 +2,7 @@
 /**
  * print_numbers - Function to print a line of numbers
  *
- * Return: Always 0.
+ * Return: None.
  */
 void print_numbers(void)
 {
