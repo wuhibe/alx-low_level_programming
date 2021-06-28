@@ -10,12 +10,11 @@
 int _strlen(char *s)
 {
 int len;
-while (*s != 0)
+while (*s != '\0')
 {
+s++;
 len++;
 
 }
-_putchar ((len / 10) + '0');
-_putchar ((len % 10) + '0');
-return (0);
+return (len);
 }
