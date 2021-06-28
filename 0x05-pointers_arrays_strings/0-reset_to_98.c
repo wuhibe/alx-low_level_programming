@@ -6,9 +6,7 @@
  *
  * Return: None.
  */
-void reset_to_98(int n)
+void reset_to_98(int *n)
 {
-int n = 98;
-_putchar((n / 10) + '0');
-_putchar((n % 10) + '0');
+*n = 98;
 }
