@@ -1,11 +1,9 @@
-  
 #include "holberton.h"
 /**
- * _strcmp - compare string values
- * @s1: input value
- * @s2: input value
- *
- * Return: s1[i] - s2[i]
+ * _strcmp - Function to compare string values
+ * @s1: String 1
+ * @s2: String 2
+ * Return: Int value.
  */
 int _strcmp(char *s1, char *s2)
 {
