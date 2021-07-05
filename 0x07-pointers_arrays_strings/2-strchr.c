@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stddef.h>
+#include <stdio.h>
 /**
  * _strchr - locate char function
  *
