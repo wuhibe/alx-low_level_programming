@@ -15,5 +15,5 @@ if (c == s[i])
 return (&s[i]);
 }
 
-return (NULL);
+return (0);
 }
