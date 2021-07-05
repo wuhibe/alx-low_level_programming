@@ -1,0 +1,1 @@
+This is an ALX school project on even more pointers, arrays and strings.
