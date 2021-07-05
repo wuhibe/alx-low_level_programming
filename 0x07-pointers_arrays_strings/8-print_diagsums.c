@@ -8,21 +8,20 @@
  */
 void print_diagsums(int (*a), int size)
 {
-int q, i, j;
-int k = 0;
-int new[size][size];
+int i;
 int sum1 = 0;
 int sum2 = 0;
-for (i = 0; i < size; i++)
-for (j = 0; j < size; j++)
+int s = size * size;
+
+for (i = 0; i < s; i += size + 1)
 {
-new[i][j] = a[k];
-k = k + 1;
+sum1 += a[i];
 }
-for (q = 0; q < size; q++)
+
+for (i = size - 1; i < s - 1; i += size - 1)
 {
-sum1 += new[q][q];
-sum2 += new[q][(size - 1) - q];
+sum2 += a[i];
 }
+
 printf("%d, %d\n", sum1, sum2);
 }
