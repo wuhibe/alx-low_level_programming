@@ -1,5 +1,5 @@
 #include "holberton.h"
-#include <stdlib.h>
+#include <stdio.h>
 /**
  * print_diagsums - Function to add diagonal variables
  * @a: list of elements of matrix
@@ -25,6 +25,4 @@ sum1 += new[q][q];
 sum2 += new[q][(size - 1) - q];
 }
 printf("%d, %d\n", sum1, sum2);
-sum1 = 0;
-sum2 = 0;
 }
