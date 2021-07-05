@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdlib.h>
 /**
  * print_diagsums - Function to add diagonal variables
  * @a: list of elements of matrix
@@ -7,13 +8,13 @@
  */
 void print_diagsums(int (*a), int size)
 {
-  int q, i, j;
-  int k = 0;
-  int new[size][size];
-  int sum1 = 0;
-  int sum2 = 0;
-for(i = 0; i < size; i++)
-for(j = 0; j < size; j++)
+int q, i, j;
+int k = 0;
+int new[size][size];
+int sum1 = 0;
+int sum2 = 0;
+for (i = 0; i < size; i++)
+for (j = 0; j < size; j++)
 {
 new[i][j] = a[k];
 k = k + 1;
