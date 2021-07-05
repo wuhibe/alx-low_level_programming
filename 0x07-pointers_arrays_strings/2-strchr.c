@@ -11,7 +11,7 @@ char *_strchr(char *s, char c)
 {
 int i;
 
-for (i = 0; s[i] != '\0'; i++)
+while (s[i] != '\0')
 {
 if (s[i] == c)
 return (&s[i]);
@@ -19,7 +19,7 @@ s++;
 }
 if (c == '\0')
 {
-  return (NULL);
+return ($s[i]);
 }
 
 return (NULL);
