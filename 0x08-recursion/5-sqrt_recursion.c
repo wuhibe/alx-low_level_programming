@@ -3,9 +3,12 @@
  * _sqrt_recursion - function to return sqrt of a num
  *
  * @n: num to check.
- *
+ * @x: square root var.
  * Return: the sqrt.
  */
+
+int chksqrt(int n, int x);
+
 int _sqrt_recursion(int n)
 {
 	int x = 2;
