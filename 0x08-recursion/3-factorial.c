@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * factorial - Function to calculate factorial of a num.
+ * factorial - Function to calculate factorial of a num
  *
  * @n: input num.
  *
