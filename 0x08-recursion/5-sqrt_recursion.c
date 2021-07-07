@@ -42,5 +42,5 @@ int chksqrt(int n, int x)
 	}
 
 	else
-		chksqrt(n, (x + 1))
+		chksqrt(n, (x + 1));
 }
