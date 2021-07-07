@@ -36,7 +36,7 @@ int chksqrt(int n, int x)
 {
 	if (n == (x * x))
 		return (x);
-	else if (n > (x * x))
+	else if (n < (x * x))
 	{
 		return (-1);
 	}
