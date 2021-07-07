@@ -21,7 +21,7 @@ int _sqrt_recursion(int n)
 
 	else
 	{
-		chksrqrt(n, x);
+		chksqrt(n, x);
 		return (x);
 	}
 }
