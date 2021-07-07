@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
  * _pow_recursion - Function to find power value.
- * 
+ *
  * @x: base value.
  * @y: superscript value.
  *
