@@ -1,29 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
-/**
- * check - function to check number.
- * @s: string recieved from main
- * Return: 0 or 1.
- */
-int check(char *s)
-{
-	int i = 0, j = strlen(s);
-
-	while (i < j)
-	{
-		{
-			if (s[i] < '0' || s[i] > '9')
-				return (1);
-
-			else
-				i++;
-		}
-
-	}
-	return (0);
-}
-
 /**
  * main - starting func to calculate change
  *
@@ -41,12 +17,12 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	if (check(argv[1]))
-	{
-		printf("Error\n");
-		return (1);
-	}
 	x = x + atoi(argv[1]);
+	if (x < 0)
+	{
+		printf("0\n");
+		return (0);
+	}
 
 	if (x >= 25)
 	{
