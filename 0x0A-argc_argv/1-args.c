@@ -3,11 +3,11 @@
  * main - Starting function to print number of arguments.
  * @argc: count of arguments.
  * @argv: vector value of arguments.
- * Return: Always 0.
+ * Return: None.
  */
 int main(int argc, char *argv[])
 {
-	argv++;
+	(*argv)++;
 	printf("%d\n", argc);
 	return (0);
 }
