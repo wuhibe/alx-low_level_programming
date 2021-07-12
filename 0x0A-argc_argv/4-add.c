@@ -12,11 +12,16 @@ int check(char *s)
 
 	while (i < j)
 	{
-		if (s[i] < '0' || s[i] > '9')
-			return (0);
-		else
-			return (1);
+		{
+			if (s[i] < '0' || s[i] > '9')
+				return (0);
+
+			else
+				i++;
+		}
+
 	}
+	return (1);
 }
 
 /**
