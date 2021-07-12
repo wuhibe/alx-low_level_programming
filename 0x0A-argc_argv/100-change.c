@@ -65,6 +65,14 @@ int main(int argc, char *argv[])
 			x = x - 10;
 		}
 	}
+	if (x >= 5)
+	{
+		while (x >= 5)
+		{
+			change += 1;
+			x = x - 5;
+		}
+	}
 
 	if (x >= 2)
 	{
