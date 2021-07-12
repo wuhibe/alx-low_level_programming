@@ -1,15 +1,13 @@
 #include <stdio.h>
 /**
  * main - Starting function to print name of program.
- * @argc: count of args.
+ * @argc: count of arguments
  * @argv: vector value taken from command line.
- * Return: argc.
+ * Return: Always 0.
  */
 int main(int argc, char *argv[])
 {
-	int x;
-
-	x = argc;
+	argc++;
 	printf("%s\n", argv[0]);
-	return (x);
+	return (0);
 }
