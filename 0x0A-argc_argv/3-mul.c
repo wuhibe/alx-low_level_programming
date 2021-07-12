@@ -1,28 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - Starting function to multiply two numbers.
- * @argc: count of args.
- * @argv: vector value taken from command line.
- * Return: Always 0.
- */
+ * main - starting function to multiply two numbers
+ * @argc: argument count
+ * @argv: vector value of args
+ * Return: 0 or 1
+ **/
 int main(int argc, char *argv[])
 {
-	int i, mult = 1;
+	int mult;
 
+	mult = 1;
 	if (argc != 3)
 	{
-		printf("Error");
+		printf("Error\n");
 		return (1);
 	}
 
-	else
-	{
-		for (i = 1; i < 3; i++)
-		{
-		mult *= atoi(argv[i]);
-		}
+
+	mult = atoi(argv[1]) * atoi(argv[2]);
 	printf("%d\n", mult);
 	return (0);
-	}
 }
