@@ -4,7 +4,7 @@
  * argstostr - function to cat arguments.
  * @ac: arg count
  * @av: arg values
- * return: a pointer or null.
+ * Return: a pointer or null.
  */
 char *argstostr(int ac, char **av)
 {
