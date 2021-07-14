@@ -29,8 +29,8 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
-			c[(k + j)] = av[i][j];
-		c[(k + j)] = '\n';
+			c[k++)] = av[i][j];
+		c[k++] = '\n';
 	}
 	c[k] = '\0';
 	return (c);
