@@ -1,11 +1,9 @@
 #include "holberton.h"
 #include <stdlib.h>
 /**
- * argstostr - function to cat args
- *
+ * argstostr - function to cat arguments.
  * @ac: arg count
  * @av: arg values
- *
  * return: a pointer or null.
  */
 char *argstostr(int ac, char **av)
@@ -29,7 +27,7 @@ char *argstostr(int ac, char **av)
 	for (i = 0; i < ac; i++)
 	{
 		for (j = 0; av[i][j] != '\0'; j++)
-			c[k++)] = av[i][j];
+			c[k++] = av[i][j];
 		c[k++] = '\n';
 	}
 	c[k] = '\0';
