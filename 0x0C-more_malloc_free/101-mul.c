@@ -57,8 +57,7 @@ void rev_string(char *s, int size)
 	while (r > 0)
 	{
 		*(s + r) = str[i];
-		r--;
-		i++;
+		r--, i++;
 	}
 	*(s + r) = str[i];
 	free(str);
@@ -76,9 +75,7 @@ unsigned int str_len(char *str)
 
 	i = 0;
 	while (str[i] != '\0')
-	{
 		i++;
-	}
 	return (i);
 }
 
@@ -141,11 +138,10 @@ char *mul(char *num1, char *num2, int len1, int len2)
 	if (res == NULL)
 		print_err();
 	res = init(res, reslen);
-	i = len2 - 1; carry = k = digit = 0;
+	i = len2 - 1, carry = k = digit = 0;
 	while (i >= 0 && k < (len1 + len2))
 	{
-		j = len1 - 1;
-		k = digit;
+		j = len1 - 1, k = digit;
 		while (j >= 0)
 		{
 			carry = 0;
@@ -161,9 +157,9 @@ char *mul(char *num1, char *num2, int len1, int len2)
 			else
 				res[k] += prod;
 			res[k + 1] += carry;
-			k++; j--;
+			k++, j--;
 		}
-		i--; digit++;
+		i--, digit++;
 	}
 	if (res[k] == '0')
 		res[k] = '\0';
@@ -203,8 +199,7 @@ char *remove_zeroes(char *str, int len)
 	while (j < len)
 	{
 		nstr[j] = str[i];
-		j++;
-		i++;
+		j++, i++;
 	}
 	nstr[j] = '\0';
 	return (nstr);
@@ -295,6 +290,6 @@ int main(int argc, char *argv[])
 	anslen = str_len(ans);
 	rev_string(ans, anslen);
 	print_str(ans);
-	free(ans); free(num1); free(num2);
+	free(ans), free(num1), free(num2);
 	return (0);
 }
