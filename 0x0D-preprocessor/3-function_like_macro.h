@@ -2,8 +2,6 @@
 #define ABS_VAL
 
 #include <stdio.h>
-#include <math.h>
-#include <stdlib.h>
-#define ABS(x) (sqrt(x * x))
+#define ABS(x) ((x < 0) ? ((x) - (2 * x)) : (x))
 
 #endif
