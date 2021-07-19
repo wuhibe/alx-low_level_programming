@@ -3,6 +3,7 @@
 
 #include <stdio.h>
 #include <math.h>
-#define ABS(x) ((x >= 0) ? (x) : (x * (-1)))
+#include <stdlib.h>
+#define ABS(x) (sqrt(x*x))
 
 #endif
