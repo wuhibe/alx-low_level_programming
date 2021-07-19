@@ -2,7 +2,7 @@
 #define ABS_VAL
 
 #include <stdio.h>
-#define ABS(x) ((x) > 0 ? (x) : (-x))
+#define ABS(x) ((x > 0) ? (x) : (x * (-1)))
 
 
 #endif
