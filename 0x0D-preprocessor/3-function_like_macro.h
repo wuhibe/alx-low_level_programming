@@ -4,6 +4,6 @@
 #include <stdio.h>
 #include <math.h>
 #include <stdlib.h>
-#define ABS(x) (sqrt(x*x))
+#define ABS(x) (sqrt(x * x))
 
 #endif
