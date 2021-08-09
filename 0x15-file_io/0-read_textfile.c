@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "holberton.h"
+#include "main.h"
 /**
  * read_textfile - function to read a text file and print to stdout
  * @filename: the name of the file
