@@ -1,9 +1,3 @@
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-
-#include <stdlib.h>
-#include <unistd.h>
 #include "holberton.h"
 /**
  * read_textfile - function to read a text and write to POSIX stdout
